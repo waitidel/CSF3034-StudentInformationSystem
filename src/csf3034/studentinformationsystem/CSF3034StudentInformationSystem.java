@@ -38,6 +38,7 @@ public class CSF3034StudentInformationSystem {
         else {
             System.out.println("Needs Improvement");
         }
+        System.out.println("Biodata :" + name + "  " +id);
     }
     
 }
