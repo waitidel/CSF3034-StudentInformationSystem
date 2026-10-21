@@ -19,6 +19,25 @@ public class CSF3034StudentInformationSystem {
         System.out.print("Enter your ID: ");
         String id = scanner.nextLine(); 
         
+        System.out.print("Enter your marks 1: ");
+        int mark1 = scanner.nextInt(); 
+        System.out.print("Enter your marks 2: ");
+        int mark2 = scanner.nextInt(); 
+        
+        //calculate total marks
+        int totalmark = mark1 + mark2;
+        
+        System.out.println("Total marks is :" + totalmark);
+        
+        if (totalmark >= 175){
+            System.out.println("Excellent");
+                    }
+        else if (totalmark >= 150){
+            System.out.println("Good");
+        }
+        else {
+            System.out.println("Needs Improvement");
+        }
     }
     
 }
